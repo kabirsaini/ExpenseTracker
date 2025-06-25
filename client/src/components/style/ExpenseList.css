@@ -1,0 +1,109 @@
+.expense-list-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.expense-list-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.no-expenses-msg {
+    text-align: center;
+    color: gray;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+.table-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.expense-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.expense-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d9363e;
+}
+.expense-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 6px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.filter-btn:hover {
+    background-color: #ddd;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.expense-cell.credit {
+    color: green;
+    font-weight: bold;
+}
+
+.expense-cell.expense {
+    color: orange;
+    font-weight: bold;
+}
+
+
+.edit-button {
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049; 
+  }
+  
