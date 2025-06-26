@@ -17,8 +17,10 @@ A full-stack Expense Tracker application built with the MERN stack (MongoDB, Exp
 
 ## 📁 Folder Structure
 
-expense-tracker/
-├── client/                # React frontend
+``` 
+
+ExpenseTracker/
+├── client/                 # React frontend
 │   ├── public/
 │   └── src/
 |       ├── api/
@@ -33,6 +35,9 @@ expense-tracker/
 │   └── .env
 └── package.json
 
+``` 
+
+
 
 
 ## 🛠️ Tech Stack
@@ -43,6 +48,7 @@ expense-tracker/
 - Chart.js / Recharts
 - React Router
 - Toastify
+- CSS
 
 **Backend:**
 - Node.js
@@ -56,28 +62,42 @@ expense-tracker/
 
 ### 1. Clone the Repository
 
+``` 
 git clone https://github.com/kabirsaini/ExpenseTracker.git
 cd ExpenseTracker
+``` 
+
 
 ## 2. Backend Setup
 
+``` 
 cd server
 npm install
 touch .env
+``` 
 
 ## Create a .env file with:
+
+``` 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+``` 
+
 
 ## Start the backend:
+``` 
 npm run server or node server.js (according to the script written in package.json)
+``` 
+
 
 ## 3. Frontend Setup
-
+``` 
 cd client
 npm install
 npm start
+``` 
+
 
 
 ## 🔐 Authentication
